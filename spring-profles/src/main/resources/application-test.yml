@@ -2,8 +2,8 @@ server:
   port: 8081
   
 app:
-    name: "Spring Profiles Demo Test"
-    description: "Welcome to ${app.name}"
+    name: "Spring Profiles Demo Test - Updated by Rajesh Kamireddy"
+    description: "Welcome to ${app.name} - Test profile"
 
 my:
     greeting: "Hello dear, Test Welcome"
