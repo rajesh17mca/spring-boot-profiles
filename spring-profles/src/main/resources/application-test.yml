@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  
+app:
+    name: "Spring Profiles Demo Test"
+    description: "Welcome to ${app.name}"
+
+my:
+    greeting: "Hello dear, Test Welcome"
+    list:
+        values : "Apple, Banana, Mango"
+    
+db:
+    connection: "{connectionStting:'http://testing',userName: 'foo', password: 'pass'}"
+    host: 127.0.0.1
+    port: 1500
